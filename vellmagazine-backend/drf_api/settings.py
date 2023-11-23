@@ -29,7 +29,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-h#f@ofj1*y^j-8^je50i86ttp%&j@zl+yagvi2l%$uh_vt*(uj"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -100,12 +99,7 @@ DATABASES = {
     }
  }
 
-# DATABASES = {
-#     "default": dj_database_url.config(
-#        conn_max_age=600,
-#        default="postgres://sgojfdbyavhdph:488a5b010ee3fe7fc86c64d7961449e8b1771e1d00dff06f17d27827cc523d05@ec2-52-215-68-14.eu-west-1.compute.amazonaws.com:5432/d6uh83ji3dheqf"
-#    )
-#}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
